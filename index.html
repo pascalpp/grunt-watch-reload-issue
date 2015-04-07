@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>grunt-contrib-watch reload test</title>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<h1>LiveReload Test</h1>
+
+<p class="text">Assuming you've got the server started using <code>grunt</code>, you should be viewing this on a local webserver on port 9090, with livereload running on port 9091.</p>
+
+<p class="text">Now, open the Network tab of your browser console and clear it. Make an edit to the font-size in <code>css/lib/text.css</code>. Note that livereload triggers a bad request for <code>/lib/text.css</code>, which 404s, and then not one but two successful requests for the correct URI at <code>/css/lib/text/css</code>.</p>
+
+<p class="text">What this looks like for me: </p>
+
+<p><img src="images/network-tab.png" alt="network-tab"></p>
+
+<p class="text">If you think this is an issue with my setup, rather than a bug in <code>grunt-contrib-watch</code>, I'd be glad to hear it. <a href="mailto:pascal@pascal.com">Email Me!</a></p>
+
+<script src="http://localhost:9091/livereload.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'grunt-contrib-concurrent' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json grunt-watch-reload-issue@1.0.0 No repository field.
+5 warn package.json grunt-watch-reload-issue@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'grunt-contrib-concurrent', null ]
+8 verbose cache add name=undefined spec="grunt-contrib-concurrent" args=["grunt-contrib-concurrent",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'grunt-contrib-concurrent',
+9 verbose parsed url   path: 'grunt-contrib-concurrent',
+9 verbose parsed url   href: 'grunt-contrib-concurrent' }
+10 silly lockFile 06ef22ac-grunt-contrib-concurrent grunt-contrib-concurrent
+11 verbose lock grunt-contrib-concurrent /Users/pascal/.npm/06ef22ac-grunt-contrib-concurrent.lock
+12 silly lockFile 06ef22ac-grunt-contrib-concurrent grunt-contrib-concurrent
+13 silly lockFile 06ef22ac-grunt-contrib-concurrent grunt-contrib-concurrent
+14 verbose addNamed [ 'grunt-contrib-concurrent', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile bc5c1f85-grunt-contrib-concurrent grunt-contrib-concurrent@
+17 verbose lock grunt-contrib-concurrent@ /Users/pascal/.npm/bc5c1f85-grunt-contrib-concurrent.lock
+18 silly addNameRange { name: 'grunt-contrib-concurrent', range: '*', hasData: false }
+19 verbose request where is /grunt-contrib-concurrent
+20 verbose request registry https://aboutdotme.registry.nodejitsu.com/
+21 verbose request id 64fc8b2b696846d0
+22 verbose url raw /grunt-contrib-concurrent
+23 verbose url resolving [ 'https://aboutdotme.registry.nodejitsu.com/',
+23 verbose url resolving   './grunt-contrib-concurrent' ]
+24 verbose url resolved https://aboutdotme.registry.nodejitsu.com/grunt-contrib-concurrent
+25 verbose request where is https://aboutdotme.registry.nodejitsu.com/grunt-contrib-concurrent
+26 info trying registry request attempt 1 at 00:31:46
+27 http GET https://aboutdotme.registry.nodejitsu.com/grunt-contrib-concurrent
+28 http 404 https://aboutdotme.registry.nodejitsu.com/grunt-contrib-concurrent
+29 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+29 verbose headers   date: 'Tue, 07 Apr 2015 04:31:46 GMT',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'content-length': '52',
+29 verbose headers   'cache-control': 'must-revalidate',
+29 verbose headers   connection: 'close' }
+30 silly registry.get cb [ 404,
+30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+30 silly registry.get     date: 'Tue, 07 Apr 2015 04:31:46 GMT',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'content-length': '52',
+30 silly registry.get     'cache-control': 'must-revalidate',
+30 silly registry.get     connection: 'close' } ]
+31 silly lockFile bc5c1f85-grunt-contrib-concurrent grunt-contrib-concurrent@
+32 silly lockFile bc5c1f85-grunt-contrib-concurrent grunt-contrib-concurrent@
+33 error 404 404 Not Found: grunt-contrib-concurrent
+33 error 404
+33 error 404 'grunt-contrib-concurrent' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'grunt-watch-reload-issue'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Darwin 14.1.0
+35 error command "node" "/usr/local/bin/npm" "install" "--save" "grunt-contrib-concurrent"
+36 error cwd /Users/pascal/Projects/livereloadtest
+37 error node -v v0.10.35
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]

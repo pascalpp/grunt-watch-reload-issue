@@ -1,98 +1,26 @@
-/*
-// global.less
-// contains global CSS rules that are used by the about.me site,
-// but not available to third-party apps
-*/
-
-/* BEGIN general classes - avoid using these */
-
-.right {
-	float: right;
-}
-.left {
-	float: left;
-}
-.clear {
-	clear: both;
-}
-.middle {
-	vertical-align: middle;
+body {
+	background-color: rgb(255, 241, 216);
+	padding: 10px 40px;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
 }
 
-.block {
-	display: block;
-}
-.inline {
-	display: inline;
-}
-.invisible {
-	display: none !important;
-}
-.clickable {
-	cursor: pointer;
+p.text {
+	max-width: 800px;
+	margin: 1em 0;
 }
 
-.newclear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
+img {
+	border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-/* END general classes - avoid using these */
-
-ul.inline {
-	display: inline-block;
-}
-ul.inline > li {
-	display: inline-block;
-	vertical-align: baseline;
+a {
+	color: orange;
 }
 
-.fullwidth,
-input.fullwidth,
-textarea.fullwidth,
-select.fullwidth,
-.button.fullwidth,
-.button.fullwidth span.button-content,
-.pillbutton.fullwidth {
-	box-sizing: border-box;
-	width: 100%;
+code {
+	background-color: white;
+	padding: 2px 4px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
 }
-
-.truncate {
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	width: 362px;
-}
-
-.code {
-	font-family: sans-serif;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	color: #5987b4;
-}
-
-/* div.preloader is a semi-hidden div that you can put items in to preload image assets */
-.preloader {
-	width: 0;
-	height: 0;
-	overflow: hidden;
-}
-
-
-
-/* .typekit, */
-.wf-loading .typekit {
-	visibility: hidden;
-}
-
-.wf-inactive .typekit,
-.wf-active .typekit {
-	visibility: visible;
-}
-

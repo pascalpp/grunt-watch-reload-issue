@@ -21,7 +21,7 @@ and where main.css just @imports all the other CSS files:
 @import url(lib/text.css);
 ```
 
-When I make changes to any of the imported files (e.g. css/lib/text.css), livereload is triggering a request to my dev server for /lib/text.css instead of /css/lib/text.css.
+When I make changes to any of the imported files (e.g. `css/lib/text.css`), livereload is triggering a request to my dev server for `/lib/text.css` instead of `/css/lib/text.css`.
 
 # Try It Yourself
 

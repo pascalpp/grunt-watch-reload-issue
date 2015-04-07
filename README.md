@@ -27,4 +27,4 @@ When I make changes to any of the imported files (e.g. css/lib/text.css), livere
 
 Clone this repo locally. 
 
-Run `grunt` to start a grunt-contrib-connect websserver on port 9090 and watch:reload on port 9091. Then open http://localhost:9090 and follow the instructions shown there.
+Run `grunt` to start a grunt-contrib-connect webserver on port 9090 and watch:reload on port 9091. Then open [http://localhost:9090](http://localhost:9090) and follow the instructions shown there.

@@ -26,6 +26,7 @@ module.exports = function(grunt) {
           '**/*.css',
         ],
         options: {
+          spawn: false,
           livereload: {
             port: 9091,
           },
